@@ -16,7 +16,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "xyz.verarr.customweathercycle.fabric.ExampleModFabric"
+      "xyz.verarr.customweathercycle.fabric.CustomWeatherCycleFabric"
     ]
   },
   "mixins": [
