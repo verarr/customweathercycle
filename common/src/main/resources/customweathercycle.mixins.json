@@ -6,6 +6,8 @@
   "client": [
   ],
   "mixins": [
+    "ServerWorldMixin",
+    "ServerWorldSleepMixin"
   ],
   "injectors": {
     "defaultRequire": 1
