@@ -9,6 +9,8 @@ public final class CustomWeatherCycle {
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
     public static void init() {
-        // Write common init code here.
+        CommandRegistrationEvent.EVENT.register((dispatcher, registryAccess, registrationEnvironment) -> {
+            dispatcher.register(WeatherCycleCommand.command);
+        });
     }
 }
